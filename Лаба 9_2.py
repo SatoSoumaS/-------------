@@ -1,0 +1,6 @@
+list1 = set(map(int, input('Введите через пробел числа (список 1): ').split()))
+list2 = set(map(int, input('Введите через пробел числа (список 2): ').split()))
+intersection = list1.intersection(list2)
+print(len(intersection))
+print(list1)
+print(list2)
